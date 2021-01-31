@@ -1,0 +1,25 @@
+/*media querys por buenas practicas debe estar en archivos diferentes*/
+
+.main-tables-container {
+    display: flex;
+    justify-content: center;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.main-currency-table,
+.main-feed-table {
+    left: 0;
+    width: 50%;
+}
+
+.product-cards-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container--slider {
+    justify-content: center;
+}
